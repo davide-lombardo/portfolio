@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <style>
+        .gradient-custom {
+            /* fallback for old browsers */
+            background: #6a11cb;
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to top, rgba(106, 17, 203, 0.2), rgba(37, 117, 252, 0.2));
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to top, rgba(106, 17, 203, 0.2), rgba(37, 117, 252, 0.2))
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <!-- Nav Menu -->
+        <nav class="navbar navbar-light bg-white navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-muted" href="#">
+                    Davide <h1 class="navbar-brand">Lombardo</h1>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Nav Menu -->
+        <!-- Background image -->
+        <div class="p-5 text-center bg-image shadow-2-strong" style="
+  background-image: url(https://images.unsplash.com/photo-1490093158370-1a6be674437b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=616&q=80);
+  height: 100vh;">
+            <div class="mask gradient-custom" style="background-color: rgba(0, 0, 0, 0.5);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-3 text-uppercase">Davide Lombardo</h1>
+                        <h4 class="mb-3 fst-italic fw-light">Web Developer</h4>
+                        <a class="btn btn-outline-light btn-lg m-1" href="#about" role="button">My Skills</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
+
+    </header>
+
+
+    <main class="my-5">
+        <div class="container">
+            <!--Section:Features-->
+            <section class="text-center mb-5" id="features">
+                <h3 class="my-5"><strong>Features</strong></h3>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <i class="fas fa-fighter-jet fa-3x text-secondary"></i>
+                        <h5 class="my-3">Fast</h5>
+                        <p class="mb-md-3 lh-lg">Loading times need to happen at a blink of an eye.</p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-lg-between">
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <i class="far fa-lightbulb fa-3x text-secondary"></i>
+                        <h5 class="my-3">Intuitive</h5>
+                        <p class="mb-md-3 lh-lg">Easy to use, intuitive UX/UI for everyone.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <i class="fas fa-dice fa-3x text-secondary"></i>
+                        <h5 class="my-3">Dynamic</h5>
+                        <p class="mb-md-3 lh-lg">No more boring websites. I love to create stunning features.</p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <i class="fas fa-mobile-alt fa-3x text-secondary"></i>
+                        <h5 class="my-3">Responsive</h5>
+                        <p class="mb-md-3 lh-lg">No matter which device you are using, my layout will look perfectly on any screen.</p>
+                    </div>
+                </div>
+            </section>
+            <!--Section:Features-->
+            <hr class="my-05">
+            <!--Section:About Me-->
+            <section class="text-center" id="about">
+                <h3 class="my-5">
+                    <strong>About Me</strong>
+                </h3>
+
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <img src="/img/avatar1.jpg" class="rounded-circle shadow-1-strong mb-4" alt="Avatar" />
+                        <p><strong>Thanks for checking out my website</strong></p>
+                        <p class="lh-lg"> My name is Davide Lombardo, i'm 28 years old and i'm a web developer from Calabria. Let's make something special.</p>
+                        <!-- Facebook -->
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://www.facebook.com/davide.lombardo.10" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com/dave.lombardo/" role="button"><i class="fab fa-instagram"></i></a>
+
+                        <!-- Linkedin -->
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/davide-lombardo-731807209/" role="button"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="mb-5"><strong>(1 year)</strong></p>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <i class="fab fa-html5 fa-5x m-2"></i>
+                                <p>HTML</p>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <i class="fab fa-css3-alt fa-5x m-2"></i>
+                                <p>CSS</p>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <i class="fab fa-js fa-5x m-2"></i>
+                                <p>JS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Section:About Me-->
+            <!--Section:My Projects-->
+
+
+            <!--Section:My Projects-->
+            <!--Section:My Contact-->
+
+
+    </main>
+
+    <!--My Contact-->
+    <section id="contact" class="container-fluid text-center bg-image img-fluid" style="background-image: url(https://images.unsplash.com/photo-1470016342826-876ea880d0be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80); height: 100vh ">
+
+        <section class="mask gradient-custom text-white" style="background-color: rgba(0, 0, 0, 0.5);">
+            <h3 class="my-5"><strong>Contact Me</strong></h3>
+
+            <div class="row d-flex justify-content-center text-white mx-3">
+                <div class="col-md-6">
+                    <form>
+                        <!-- Name input -->
+                        <div class="form-outline mb-4 ">
+                            <input type="text" id="form4Example1" class="form-control" />
+                            <label class="form-label text-white-50" for="form4Example1">Name</label>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form4Example2" class="form-control" />
+                            <label class="form-label text-white-50" for="form4Example2">Email address</label>
+                        </div>
+
+                        <!-- Message input -->
+                        <div class="form-outline mb-4">
+                            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                            <label class="form-label text-white-50" for="form4Example3">Message</label>
+                        </div>
+
+                        <!-- Checkbox -->
+                        <div class="form-check d-flex justify-content-center mb-4">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                            <label class="form-check-label" for="form4Example4">
+                        Send me a copy of this message
+                      </label>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-outline-white btn-block mb-4">Send</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--My Contact-->
+
+    <footer class="bg-dark text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-light">Davide Lombardo</a>
+            <div class="text-center p-3">info: davide.lombardo.92@gmail.com</div>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+
+
+</body>
+
+</html>
