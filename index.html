@@ -71,7 +71,7 @@
                     <div class="text-white">
                         <h1 class="mb-3 text-uppercase">Davide Lombardo</h1>
                         <h4 class="mb-3 fst-italic fw-light">Web Developer</h4>
-                        <a class="btn btn-outline-light btn-lg m-1" href="#about" role="button">My Skills</a>
+                        <a class="btn btn-light btn-lg m-1" href="#about" role="button">My Skills</a>
                     </div>
                 </div>
             </div>
@@ -224,33 +224,10 @@
     <!-- End your project here-->
 
     <!-- MDB -->
-    <scrip type="text/javascript" src="js/mdb.min.js"></scrip>
+
     <!-- Custom scripts -->
 
 
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("user_XG3GN1haMQ6noZ8y9ErmE");
-        })();
-    </script>
 
 
 </body>
